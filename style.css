@@ -72,7 +72,10 @@
 }
 .btn .btn__search,
 .btn .btn__change-lang{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
     height: 77px;
     width: 72px;
     border-left:2px solid #e1e8ef;
