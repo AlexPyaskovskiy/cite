@@ -3,10 +3,11 @@
 }
 
 .main-header{
-    height: 77px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 77px;
+    width: 100%;
+    
 }
 .main-header a{
     font-family: "CoreSansN-Bold";
@@ -19,16 +20,13 @@
     padding-top:32px; 
     text-align:center;
 }
-.main-header .item-menu{
+
+
+/*кнопка меню*/
+.main-header .item-menu a{
     color:#ffff;
     width: 165px;
     background-color: #09c6d0;
-}
-.main-header .item-menu a{
-    color:white;
-}
-.item-menu a{
-    width: 165px;
     height: 77px;
     padding-left:15px;
 }
@@ -37,33 +35,31 @@
     top:25px;
     left:20px;
 }
+
+/*nav-меню*/
+
 .nav-menu{
-    width:100%;
+    
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    width:100%;
 }
+
 .nav-menu__item{
-    color: #2281d6;
-    border-left:2px solid #e1e8ef;
-    border-bottom:3px solid #e1e8ef;
     height:76px;
-    display:block;
     width: calc(100% / 6);
-}
-
-/*мемасний костиль,який не работає толком, і був зроблений просто шоби било*/ 
-.nav-menu__item img{
-    display:block;
-    position:relative;
-    left:80px;
-    top:-10px;
+    color: #2281d6;
+    background-color: #f6f9fe;
+    border-left:2px solid #e1e8ef;
+    border-bottom:3px solid #e1e8ef;   
 }
 
 
 
 
 
+
+/*права частина*/
 .main-header .auth-block{
     display: flex;
     align-items:center;
@@ -71,7 +67,6 @@
 
 .auth-block__item_orange{
     color:#ffff;
-    display: block;
     height:100%;
     width: 130px;
     background-color: #ff7506;
