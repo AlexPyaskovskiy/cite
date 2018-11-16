@@ -51,8 +51,7 @@ font-style: normal;
 /*nav-меню*/
 
 .nav-menu{
-    
-    display: flex;
+  display: flex;
     justify-content: space-between;
     width:100%;
 }
@@ -70,7 +69,24 @@ font-style: normal;
     align-items: center; 
 }
 
-
+/*избранное*/
+ .nav-menu__item_favorites{
+     flex-direction: row;
+ }
+ .nav-menu__item_favorites img{
+     margin-left:12px;
+ }
+.nav-menu__item_favorites-count{
+    letter-spacing:0;
+    width: 35px;
+    height: 24px;
+    color:  #e1e8ef;
+    background-color: #ff7506;
+    border-radius: 40%;
+    position:relative;
+    top:-10px;
+    left:-10px;
+}
 
 
 
