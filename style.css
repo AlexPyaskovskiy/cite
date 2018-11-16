@@ -9,7 +9,6 @@
     justify-content: space-between;
 }
 .main-header a{
-    color: #2281d6;
     font-family: "CoreSansN-Bold";
     font-size: 12px;
     font-weight: 700;
@@ -31,8 +30,7 @@
 .item-menu a{
     width: 165px;
     height: 77px;
-    margin-left:15px;
-
+    padding-left:15px;
 }
 .item-menu img{
     position: absolute;
@@ -46,42 +44,47 @@
     align-items:center;
 }
 .nav-menu__item{
+    color: #2281d6;
     border-left:2px solid #e1e8ef;
     border-bottom:3px solid #e1e8ef;
     height:76px;
     display:block;
     width: calc(100% / 6);
 }
-.nav-menu__item-logo{
-    border-left:2px solid #e1e8ef;
-    border-bottom:3px solid #e1e8ef;
-    height:76px;
+
+/*мемасний костиль,який не работає толком, і був зроблений просто шоби било*/ 
+.nav-menu__item img{
     display:block;
-    width: calc(100% / 6);
-}
-.nav-menu__item-logo img{
-    position: relative;
+    position:relative;
+    left:80px;
     top:-10px;
 }
-.main-header .btn{
+
+
+
+
+
+.main-header .auth-block{
     display: flex;
     align-items:center;
 }
-.btn .btn__enter{
+
+.auth-block__item_orange{
     color:#ffff;
     display: block;
     height:100%;
     width: 130px;
     background-color: #ff7506;
 }
-.btn .btn__search,
-.btn .btn__change-lang{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:0;
+.auth-block__item_blue{
+    color:#ffff;
     height: 77px;
     width: 72px;
     border-left:2px solid #e1e8ef;
     background-color: #09c6d0;
+}
+
+.auth-block__item_blue img{
+    position: relative;
+    top:-5px;
 }
