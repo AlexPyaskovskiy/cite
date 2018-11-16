@@ -1,3 +1,12 @@
+@font-face{
+
+font-family: 'Core-Sans';
+src: url('../fonts/Core Sans G/CoreSansG-Bold.ttf');
+font-weight: bold;
+font-style: normal;
+
+}
+
 *{
     box-sizing: border-box;
 }
@@ -10,7 +19,7 @@
     
 }
 .link{
-    font-family: "CoreSansN-Bold";
+    font-family: "CoreSans" bold;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
