@@ -9,28 +9,31 @@
     width: 100%;
     
 }
-.main-header a{
+.link{
     font-family: "CoreSansN-Bold";
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration:none;
-    display: block; 
-    padding-top:32px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align:center;
 }
 
 
 /*кнопка меню*/
-.main-header .item-menu a{
+.main-header .main-header__menu-btn-container a{
     color:#ffff;
+    border-bottom:2px solid #e1e8ef; 
     width: 165px;
     background-color: #09c6d0;
     height: 77px;
     padding-left:15px;
 }
-.item-menu img{
+.main-header__menu-btn-container img{
     position: absolute;
     top:25px;
     left:20px;
@@ -51,7 +54,12 @@
     color: #2281d6;
     background-color: #f6f9fe;
     border-left:2px solid #e1e8ef;
-    border-bottom:3px solid #e1e8ef;   
+    border-bottom:2px solid #e1e8ef; 
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    text-align:center;  
 }
 
 
@@ -70,16 +78,14 @@
     height:100%;
     width: 130px;
     background-color: #ff7506;
+    border-bottom:2px solid #e1e8ef; 
 }
 .auth-block__item_blue{
     color:#ffff;
     height: 77px;
     width: 72px;
     border-left:2px solid #e1e8ef;
+    border-bottom:2px solid #e1e8ef; 
     background-color: #09c6d0;
 }
 
-.auth-block__item_blue img{
-    position: relative;
-    top:-5px;
-}
