@@ -9,7 +9,7 @@ font-style: normal;
 
 @font-face{
 
-font-family: 'Core-Sans-Regular';
+font-family: 'Core-SansRegular';
 src: url('../fonts/Core Sans G/CoreSansG-Regular.ttf');
 font-weight: bold;
 font-style: normal;
@@ -125,7 +125,7 @@ font-style: normal;
 
 /*подменю*/
 .submenu{
-    padding-left:105px;
+    padding-left:5%;
     display:flex;
     justify-content:start;
     align-items: center;
@@ -141,7 +141,6 @@ font-style: normal;
     padding:0 40px;
      color: #2281d6;
      color: #2281d6;
-    font-family: "Core-Sans-Regular" bold;
     font-size: 12px;
     font-weight: 400;
 }
