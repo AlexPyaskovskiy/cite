@@ -2,6 +2,15 @@
 
 font-family: 'Core-Sans';
 src: url('../fonts/Core Sans G/CoreSansG-Bold.ttf');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'Core-Sans-Regular';
+src: url('../fonts/Core Sans G/CoreSansG-Regular.ttf');
 font-weight: bold;
 font-style: normal;
 
@@ -71,6 +80,7 @@ font-style: normal;
 
 /*избранное*/
  .nav-menu__item_favorites{
+     
      flex-direction: row;
  }
  .nav-menu__item_favorites img{
@@ -111,5 +121,32 @@ font-style: normal;
     border-left:2px solid #e1e8ef;
     border-bottom:2px solid #e1e8ef; 
     background-color: #09c6d0;
+}
+
+/*подменю*/
+.submenu{
+    padding-left:105px;
+    display:flex;
+    justify-content:start;
+    align-items: center;
+    width:100%;
+    height: 38px;
+    border-left:2px solid #e1e8ef;
+    border-bottom:2px solid #e1e8ef;
+    background-color: #f6f9fe;
+    
+}
+.submenu-item{
+    text-decoration: none;
+    padding:0 40px;
+     color: #2281d6;
+     color: #2281d6;
+    font-family: "Core-Sans-Regular" bold;
+    font-size: 12px;
+    font-weight: 400;
+}
+.submenu-item:nth-child(2){
+    border-left:2px solid  #2281d6;
+    border-right:2px solid  #2281d6;
 }
 
