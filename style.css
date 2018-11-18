@@ -125,6 +125,7 @@ font-style: normal;
 
 /*подменю*/
 .submenu{
+    margin-right: 0px;
     padding-left:105px;
     display:flex;
     justify-content:start;
@@ -153,6 +154,7 @@ font-style: normal;
 
 /*////////////////////////////*/
 .title{
+    margin-right: 0px;
     color: #2281d6;
     height: 133px;
     width: 100%;
