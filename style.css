@@ -180,4 +180,25 @@ font-style: normal;
     font-size: 44px;
     font-weight: 700;
 }
+/*/////////////////////*/
 
+.menu-list{
+   border-bottom:2px solid #e1e8ef;
+   background-color: #f6f9fe;
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+}
+.menu-list__left-box{
+    width: 46%;
+    display: flex;
+    flex-direction: row;
+}
+.menu-list__left-box__item{
+    color: #8bbde9;
+    border-right:2px solid #e1e8ef;
+    width:calc(100%/5);
+}
+.menu-list__left-box__item:nth-child(1){
+    width: 80px;
+}
